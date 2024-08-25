@@ -1,0 +1,25 @@
+@startuml
+object KrystynaDąbrowska
+object ElżbietaKowalska
+object TomaszDąbrowski
+object AndrzejKowalski
+object KacperKowalski
+object JoannaNowak
+object EwaKowalska
+object MarekKowalski
+object JanKowalski
+object AnnaDąbrowska
+object AlicjaWiśniewska
+KrystynaDąbrowska --> MarekKowalski
+AndrzejKowalski --> MarekKowalski
+KrystynaDąbrowska --> EwaKowalska
+ElżbietaKowalska --> KacperKowalski
+KacperKowalski --> AndrzejKowalski
+AnnaDąbrowska --> MarekKowalski
+JanKowalski --> KacperKowalski
+AlicjaWiśniewska --> AnnaDąbrowska
+AnnaDąbrowska --> EwaKowalska
+AndrzejKowalski --> EwaKowalska
+JoannaNowak --> AndrzejKowalski
+TomaszDąbrowski --> AnnaDąbrowska
+@enduml

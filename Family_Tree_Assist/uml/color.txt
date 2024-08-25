@@ -1,0 +1,7 @@
+@startuml
+object AndrzejKowalski #Lime
+object EwaKowalska
+object MarekKowalski
+AndrzejKowalski --> EwaKowalska
+AndrzejKowalski --> MarekKowalski
+@enduml
